@@ -1,0 +1,28 @@
+{
+  "name": "stereotype-this-mcp-server",
+  "description": "An MCP Server that demonstrates sharing prompts",
+  "version": "1.0.0",
+  "license": "ISC",
+  "author": "Peter Santos",
+  "keywords": ["mcp", "prompt"],
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "stereotype-this-mcp-server": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 dist/index.js",
+    "inspector": "npx @modelcontextprotocol/inspector dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^5.8.3"
+  }
+}
