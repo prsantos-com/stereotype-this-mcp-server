@@ -1,14 +1,16 @@
 {
-  "name": "stereotype-this-mcp-server",
+  "name": "@prsantos/stereotype-this-mcp-server",
   "description": "An MCP Server that demonstrates sharing prompts",
   "version": "1.0.0",
   "license": "ISC",
   "author": "Peter Santos",
-  "keywords": ["mcp", "prompt"],
-  "main": "index.js",
+  "keywords": [
+    "mcp",
+    "prompt"
+  ],
   "type": "module",
   "bin": {
-    "stereotype-this-mcp-server": "./dist/index.js"
+    "stereotype-this-mcp-server": "dist/index.js"
   },
   "scripts": {
     "build": "tsc && chmod 755 dist/index.js",
@@ -24,5 +26,13 @@
   "devDependencies": {
     "@types/node": "^22.14.0",
     "typescript": "^5.8.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prsantos-com/stereotype-this-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prsantos-com/stereotype-this-mcp-server/issues"
+  },
+  "homepage": "https://github.com/prsantos-com/stereotype-this-mcp-server#readme"
 }
