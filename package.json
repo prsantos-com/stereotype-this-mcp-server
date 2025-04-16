@@ -1,7 +1,7 @@
 {
   "name": "@prsantos/stereotype-this-mcp-server",
   "description": "An MCP Server that demonstrates sharing prompts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "ISC",
   "author": "Peter Santos",
   "keywords": [

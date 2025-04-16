@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import {
@@ -7,7 +9,7 @@ import {
 export const server = new McpServer(
   {
     name: "stereotype-this-mcp-server",
-    version: "1.0.1",
+    version: "1.0.2",
   },
   {
     capabilities: {
