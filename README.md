@@ -27,7 +27,9 @@ The following prompts are available:
 
 ### [Claude Desktop](https://claude.ai/download)
 
-Add this configuration to your `claude_desktop_config.json`:
+Add one of these configurations to your `claude_desktop_config.json`:
+
+#### NPX
 
 ```json
 {
@@ -37,6 +39,24 @@ Add this configuration to your `claude_desktop_config.json`:
       "args": [
         "-y",
         "@prsantos-com/stereotype-this-mcp-server"
+      ]
+    }
+  }
+}
+```
+
+#### Docker
+
+```json
+{
+  "mcpServers": {
+    "stereotype-this": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "prsantos/stereotype-this-mcp-server"
       ]
     }
   }
